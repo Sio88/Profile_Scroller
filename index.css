@@ -1,0 +1,62 @@
+body, html {
+  height: 100%;
+  background-image: url("https://cdn.wallpapersafari.com/32/50/KsCQeb.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+.mb-3 {
+  color: #d54d7b;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-size: 65px; 
+  line-height: 75px; 
+  font-weight: normal; 
+  margin-bottom: 0px; 
+  margin-top: 40px; 
+  text-align: center; 
+  text-shadow: 0 1px 1px #fff;
+
+}
+
+
+.list-group-item {
+  font-size: 20px;
+  color: lightcoral;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+#imageDisplay {
+  border: 5px solid slateblue;
+  border-radius: 150px;
+}
+
+#next {
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+    font-size: 25px;
+}
+
+#next:hover {
+  background-color:#002ead;
+  transition: 0.7s;
+  cursor: progress;
+}
+
+#next:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+}
+
+
+
+
